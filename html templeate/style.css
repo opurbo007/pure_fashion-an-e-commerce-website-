@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+
+/*-----for nav bar------*/
+
+
+/* body {
+    margin: 0 20px 0 20px;
+} */
+
+.logo img {
+    height: 70px;
+    width: 75px;
+    float: left;
+    border-radius: 35px;
+    margin: 5px 20px;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar-list {
+    display: flex;
+    float: right;
+}
+
+.navbar-list li {
+    list-style: none;
+    padding: 28px 15px;
+}
+
+.navbar-list li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#btn {
+    float: right;
+    margin: 28px 20px 28px 10px;
+}
+
+.in {
+    border-radius: 9px;
+}
+
+.fa-shopping-cart {
+    border: solid white 0.5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/*-----This is for front image & header-----*/
+
+.col {
+    position: absolute;
+    margin: 250px 80px;
+    font-size: large;
+}
+
+.col a {
+    color: white;
+    background: #581845;
+    border-radius: 20px;
+    ;
+    text-decoration: none;
+    margin-left: 80px;
+    padding-left: 5px;
+}
+
+.col-2 img {
+    width: 100%;
+}
+
+
+/*
+.container {
+background:#ebd5d3;
+background:radial-gradient(#fff,#ffd6d6);
+}
+*/
+
+
+/*-----show off ------*/
+
+.row-2 {
+    display: flex;
+    flex-basis: 33%;
+    padding: 0px 30px;
+    margin: 5px 0px;
+}
+
+.row-2 img {
+    width: 100%;
+    padding: 35px 20px;
+    transition-delay: 0.5s;
+    margin-top: 20px;
+}
+
+.row-2 img:hover {
+    transform: translateY(-3%);
+}
+
+
+/*---------for catagory-------*/
+
+.row-3 {
+    display: flex;
+    flex-basis: 50%;
+    margin: 10px 0;
+}
+
+.row-3 h2 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.row-3 div a {
+    text-decoration: none;
+    color: black;
+}
+
+.row-3 img {
+    width: 100%;
+    padding: 40px 20px;
+    transition-delay: 0.3s;
+    height: 80%;
+}
+
+.row-3 div {
+    transition-delay: 0.5s;
+    margin: auto;
+}
+
+.row-3 div:hover {
+    transform: translateY(-3%);
+}
+
+
+/* ------Leatest ptoduct----- */
+
+.name {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.row-4 {
+    display: flex;
+    flex-basis: 25%;
+    padding: 10px 40px;
+}
+
+.write {
+    margin: 10px;
+    transition-delay: 0.5s;
+}
+
+.row-4 .write img {
+    width: 100%;
+}
+
+.write a {
+    color: black;
+}
+
+.checked {
+    color: orange;
+}
+
+.write:hover {
+    transform: translateY(-3%);
+}
+
+
+/*------Offer------*/
+
+.offer {
+    display: flex;
+    padding: 40px 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.offer img {
+    width: 100%;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.offer-1 {
+    position: absolute;
+    margin: 250px 100px;
+    font-size: large;
+}
+
+.offer-1 a {
+    color: white;
+    background: #581845;
+    border-radius: 20px;
+    ;
+    text-decoration: none;
+    margin-left: 50px;
+    padding-left: 5px;
+}
+
+
+/*--------This is for footer------*/
+
+.footer {
+    background: black;
+    display: flex;
+    width: 100%;
+}
+
+.footer .storelogo {
+    margin: 0px 30px;
+}
+
+.footer .storelogo a img {
+    height: 40px;
+    width: 150px;
+    margin: 8px;
+    border: solid white;
+    border-radius: 10px;
+}
+
+.footer .foot {
+    margin-left: 80px;
+    width: 40%;
+}
+
+.footer .foot h5 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer .foot ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 14px 0px;
+}
+
+.footer .foot ul a {
+    margin: 0px 15px;
+    border: solid white;
+    border-radius: 12px;
+    background-color: #e3edf7;
+    padding: 5px 8px;
+}
+
+.footer .foot ul a i {
+    color: black;
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+    margin-left: 78px;
+}
+
+.footer .policy {
+    margin: 20px 10px 0px 10px;
+}
+
+.footer .policy ul {
+    margin: 0px 0px 5px 60px;
+    text-align: center;
+}
+
+.footer .policy ul a {
+    color: white;
+}
+
+
+/*---------for product page-----*/
+
+.nxt {
+    margin-bottom: 20px;
+}
+
+.nxt ul {
+    display: flex;
+    list-style: none;
+    margin-left: 45px;
+}
+
+.nxt ul li {
+    padding: 3px 10px;
+    margin: 0px 10px;
+    border: solid;
+    background-color: silver;
+}
+
+.nxt ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*-------for Men page-----*/
+
+.col-5 {
+    margin: 50px 30px;
+}
+
+.row-5 {
+    display: flex;
+    margin: 20px 0;
+}
+
+.row-5 .write {
+    text-align: center;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.row-5 .write h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+.row-5 .write img {
+    height: 500px;
+    width: 440px;
+    border: solid black;
+}
+
+.row-6 {
+    margin-top: 40px;
+}
+
+.row-6 .write {
+    text-align: center;
+    justify-content: center;
+}
+
+.row-6 .write h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+.row-6 .write img {
+    height: 500px;
+    width: 440px;
+    border: solid black;
+}
+
+
+/*-----this is for accessories ----*/
+
+.name2 {
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.row-7 {
+    display: flex;
+    /* flex-basis:32%; */
+}
+
+.row-7 .write {
+    /* margin:10px; */
+    flex-basis: 32%;
+    padding-left: 0;
+}
+
+
+/* .row-7 .write a{
+flex-basis:32%; 
+} */
+
+.row-7 .write img {
+    height: 350px;
+    width: 300px;
+    border: solid gray;
+    border-radius: 2px;
+    /* flex-basis: 33%; */
+}
+
+
+/* ----- this is for more product page----*/
+
+.more {
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    padding: 63% 0px;
+}
+
+.more div {
+    border: solid gray;
+    margin: 0px 100px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #e3edf7;
+}
+
+.more div h1 {
+    font-family: fantasy;
+    color: red;
+}
+
+
+/*------This is for Every single product-----*/
+
+.product {
+    display: flex;
+    margin: 50px 10px;
+}
+
+.productpage-1 img {
+    height: 700px;
+    width: 550px;
+    padding: 40px;
+}
+
+.productpage-2 {
+    position: absolute;
+    padding: 20px;
+    margin: 150px 0px;
+}
+
+.productpage-2 h3 {
+    margin: 10px;
+}
+
+.button {
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.btn {
+    color: white;
+    background: #581845;
+    border-radius: 20px;
+    ;
+    text-decoration: none;
+    border: solid black;
+    padding: 5px 8px;
+    margin-right: 15px;
+}
+
+.related h3 {
+    text-align: center;
+}
+
+
+/*------This is for accout page----*/
+
+.account img {
+    height: 100%;
+    width: 100%;
+}
+
+.account .login form {
+    position: absolute;
+    text-align: center;
+    margin: 260px 270px;
+    box-shadow: 20px 20px 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+.login form input {
+    background: #FFEFD5;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 5px 0px;
+    margin: 3px 0px;
+}
+
+.login button {
+    width: 100%;
+    background: #FFEFD5;
+    margin: 10px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: bold;
+}
+
+.login a {
+    width: 100%;
+    color: white;
+    font-size: bold;
+}
+
+.login h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: bold;
+    color: #fff;
+}
+
+.login input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+    text-align: center;
+}
+
+
+/* -------------This is for cart ----------- */
+
+.table th {
+    /* border: solid; */
+    width: 25%;
+}
+
+tfoot tr td {
+    text-align: center;
+}
+
+.btn-danger {
+    border: solid black 2px;
+    color: whitesmoke;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: black;
+    padding: 1px 6px;
+}
+
+.btn-remove {
+    /* border: solid black;
+    border-radius: 5px; */
+    color: red;
+}
+
+.total {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#purchase {
+    border: solid whitesmoke;
+    padding: 4px 25px;
+    color: #e3edf7;
+    background-color: rgb(7, 7, 7);
+    font-size: 22px;
+    border-radius: 20px;
+}
+
+.purchase {
+    /* border: solid; */
+    margin: 2% 7% 2% 59%;
+}
+
+
+/* this is for responsiveness */
+
+@media only screen and (min-width:1000px) {
+    .row-7 .write {
+        padding-left: 25px;
+    }
+    .account .login form {
+        margin: 0%;
+        left: 31%;
+        top: 32%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .col {
+        margin: 400px 159px;
+        font-size: x-large;
+    }
+    .offer-1 {
+        margin: 400px 159px;
+        font-size: x-large;
+    }
+    .more {
+        padding: 20% 0px;
+    }
+    .footer .foot {
+        margin-left: 80px;
+        width: 69%;
+    }
+    .footer .copy {
+        margin-left: 40%;
+    }
+    .footer .policy {
+        margin: 20px 10px 0px 10px;
+    }
+    .footer .foot ul a {
+        margin: 0px 50px;
+        padding: 6px 8px;
+    }
+    .row-7 .write {
+        padding-left: 40px;
+    }
+    .account .login form {
+        margin: 0%;
+        left: 31%;
+        top: 40%;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    .col {
+        margin: 415px 159px;
+        font-size: xx-large;
+    }
+    .offer-1 {
+        margin: 415px 159px;
+        font-size: xx-large;
+    }
+    .footer .foot {
+        margin-left: 80px;
+        width: 69%;
+    }
+    .footer .copy {
+        margin-left: 40%;
+    }
+    .footer .policy {
+        margin: 20px 10px 0px 10px;
+    }
+    .footer .foot ul a {
+        margin: 0px 50px;
+        padding: 6px 8px;
+    }
+    .row-7 .write {
+        /* margin: 10px 461px 10px 0; */
+        padding-left: 166px;
+    }
+    .account .login form {
+        margin: 0%;
+        left: 31%;
+        top: 58%;
+    }
+}
